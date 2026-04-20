@@ -1,0 +1,6 @@
+- Efecto visual de corazón flotante al rescatar una oveja (prefab Heart con scripts Move, Rotate, TweenScale y DestroyTimer).
+- Sistema de sonido mediante patrón Singleton (SoundManager): sonidos al disparar, al rescatar una oveja y al caer una oveja.
+- Sistema de puntuación y estado de juego (GameStateManager): contador de ovejas salvadas y caídas, condición de Game Over al perder 3 ovejas.
+- Interfaz de usuario actualizable en tiempo real (UIManager): textos de ovejas salvadas/caídas y ventana de Game Over.
+- Pantalla de título con botones 3D interactivos usando Physics Raycaster y Event System (StartButton y QuitButton).
+- Opción de cambiar el color de la máquina de heno desde la pantalla de título
